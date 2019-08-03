@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/img/apple-icon.png"
+    />
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+      Vikrant Pradhan | Web developer
+    </title>
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+      name="viewport"
+    />
+    <!--     Fonts and icons     -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+    />
+    <!-- CSS Files -->
+    <link href="./assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="./assets/demo/demo.css" rel="stylesheet" />
+  </head>
+
+  <body class="profile-page sidebar-collapse">
+    <nav
+      class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg"
+      color-on-scroll="100"
+      id="sectionsNav"
+    >
+      <div class="container">
+        <!-- <div class="navbar-translate">
+        <a class="navbar-brand" href="https://demos.creative-tim.com/material-kit/index.html">
+          Material Kit </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div> -->
+        <!-- <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> Components
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a href="../index.html" class="dropdown-item">
+                <i class="material-icons">layers</i> All Components
+              </a>
+              <a href="https://demos.creative-tim.com/material-kit/docs/2.1/getting-started/introduction.html" class="dropdown-item">
+                <i class="material-icons">content_paste</i> Documentation
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="material-icons">cloud_download</i> Download
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Follow us on Twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" data-original-title="Like us on Facebook">
+              <i class="fa fa-facebook-square"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Follow us on Instagram">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div> -->
+      </div>
+    </nav>
+    <div
+      class="page-header"
+      data-parallax="true"
+      style="background-image: url('./assets/img/portfolio_background.jpg');"
+    ></div>
+    <div class="main main-raised">
+      <div class="profile-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 ml-auto mr-auto">
+              <div class="profile">
+                <div class="avatar">
+                  <img
+                    src="./assets/img/me.jpg"
+                    alt="Circle Image"
+                    class="img-raised rounded-circle img-fluid"
+                  />
+                </div>
+                <div class="name">
+                  <h3 class="title">Vikrant Pradhan</h3>
+                  <h6>Full Stack Web Developer</h6>
+                  <a
+                    href="#pablo"
+                    class="btn btn-just-icon btn-link btn-dribbble"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                  <a
+                    href="#pablo"
+                    class="btn btn-just-icon btn-link btn-twitter"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                  <!-- <a href="#pablo" class="btn btn-just-icon btn-link btn-pinterest"><i class="fa fa-pinterest"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="description text-center">
+            <p>
+              A Full Stack Developer passionate about software development and
+              creating fully fledged web applications.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-6 ml-auto mr-auto">
+              <div class="profile-tabs">
+                <ul
+                  class="nav nav-pills nav-pills-icons justify-content-center"
+                  role="tablist"
+                >
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="#studio"
+                      role="tab"
+                      data-toggle="tab"
+                    >
+                      <i class="material-icons">camera</i>Projects
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="#works"
+                      role="tab"
+                      data-toggle="tab"
+                    >
+                      <i class="material-icons">palette</i> Skills
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content tab-space">
+            <div class="tab-pane active text-center gallery" id="studio">
+              <div class="row">
+                <div class="col-md-3 ml-auto">
+                  <div class="card mt-1 mb-5">
+                    <div class="card-header card-header-icon card-header-rose">
+                        <h4 class="card-title">Javascript Chat App</h4>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h4 class="card-title">Here is the Icon</h4> -->
+                      <p>A simple chat app that uses socket.io for establishing the
+                          socket connection between the server and the client. The
+                          server uses Express Framework to server the files and
+                          provide RESTful functions. The client side is uses HTML
+                          CSS and Javascript DOM manipulation API to provide the
+                          chat interface for the user.</p>
+                      <a href="#0" class="card-link">View Source Code</a>
+                      <a href="#0" class="card-link">Open App</a>
+                    </div>
+
+                  </div>
+                  <div class="card mt-1">
+                    <div class="card-header card-header-icon card-header-rose">
+                        <h4 class="card-title">Disease Prediction System</h4>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h4 class="card-title">Here is the Icon</h4> -->
+                     <p>
+                        A simple backend api server that uses machine learning to
+                      predict diseases according to the symtoms requested by
+                      frontend client. Both input and output format is JSON. The
+                      machine learning model was build using Scikit Learn Python
+                      Library. The server is build using Python Flask Framework.
+                     </p>
+                     <a href="#0" class="card-link">View Source Code</a>
+                      <a href="#0" class="card-link">Open App</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 mr-auto">
+                  <div class="card mt-1 mb-5">
+                    <a
+                      href="http://www.google.com"
+                      target="_blank"
+                      class="card-header card-header-icon card-header-rose"
+                    >
+                    <h4 class="card-title">React Chat App</h4>
+                    </a>
+                    <div class="card-body">
+                      <!-- <h4 class="card-title">Here is the Icon</h4> -->
+                      <p>
+                          This app uses React-Redux to develop the frontend client
+                          interface. Its a basic app where a uses can provide a
+                          username to enter the app and can message other users by
+                          sending a chat request. The backend uses ExpressJS and
+                          socketIo to handle the bidirectional connection.
+                      </p>
+                      <a href="#0" class="card-link">View Source Code</a>
+                      <a href="#0" class="card-link">Open App</a>
+                    </div>
+                  </div>
+                  <div class="card mt-1">
+                    <div class="card-header card-header-icon card-header-rose">
+                        <h4 class="card-title">Penpal Social App</h4>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h4 class="card-title">Here is the Icon</h4> -->
+                      <p>
+                          A simple app that allows users to add users and get their
+                          posts. It uses passportJS for authentication. This uses
+                          GraphQL in backend along with Express Server. The data is
+                          stored in a MongoDB database and Mongoose ODM is
+                          integrated in backend to interact with the database. The
+                          Frontend uses React along with Apollo Client to handle the
+                          request and response from the Graphql backend.
+                      </p>
+                      <a href="#0" class="card-link">View Source Code</a>
+                      <a href="#0" class="card-link">Open App</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane text-center gallery" id="works">
+              <div class="row">
+                <div class="col-md-6 offset-md-3">
+                  <h3 class="skills-subheader">FrontEnd</h3>
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">HTML & CSS</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Javascript DOM</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">JQuery & SASS</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">ReactJS / Redux</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">React Router </span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">React Apollo </span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge"
+                      >Webpack / Parcel Bundlers
+                    </span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <h3 class="skills-subheader right-align">BackEnd</h3>
+                  <div class="progress-container progress-primary right-align">
+                    <span class="progress-badge">NodeJS</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary right-align">
+                    <span class="progress-badge right-align">ExpressJS</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary right-align">
+                    <span class="progress-badge right-align">GraphQL</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary right-align">
+                    <span class="progress-badge right-align"
+                      >Mongoose / MongoDB</span
+                    >
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary right-align">
+                    <span class="progress-badge right-align">PassportJS</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <h3 class="skills-subheader">Programming Languages</h3>
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Javascript / Typescript</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Python</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary">
+                    <span class="progress-badge">Java </span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <h3 class="skills-subheader right-align">Others</h3>
+                  <div class="progress-container progress-primary right-align">
+                    <span class="progress-badge">Adobe XD</span>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="progress-container progress-primary right-align">
+                    <span class="progress-badge"
+                      >Web Application Deployment</span
+                    >
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-primary"
+                        role="progressbar"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="width: 30%;"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer footer-default">
+      <div class="container">
+        <nav class="float-left">
+          <ul>
+            <li>
+              <a href="https://creative-tim.com/presentation">
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="http://blog.creative-tim.com">
+                GitHub
+              </a>
+            </li>
+            <!-- <li>
+              <a href="https://www.creative-tim.com/license">
+                Licenses
+              </a>
+            </li> -->
+          </ul>
+        </nav>
+        <div class="copyright float-right">
+          <!-- &copy; -->
+          <!-- <script>
+            document.write(new Date().getFullYear());</script
+          >, made with <i class="material-icons">favorite</i> by -->
+          <a href="https://www.creative-tim.com" target="_blank"
+            >Vikrant Pradhan</a
+          >
+          <!-- for a better web. -->
+        </div>
+      </div>
+    </footer>
+    <!--   Core JS Files   -->
+    <script
+      src="./assets/js/core/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./assets/js/core/popper.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="./assets/js/core/bootstrap-material-design.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="./assets/js/plugins/moment.min.js"></script>
+    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script
+      src="./assets/js/plugins/bootstrap-datetimepicker.js"
+      type="text/javascript"
+    ></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script
+      src="./assets/js/plugins/nouislider.min.js"
+      type="text/javascript"
+    ></script>
+    <!--  Google Maps Plugin    -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+    <script
+      src="./assets/js/material-kit.js?v=2.0.5"
+      type="text/javascript"
+    ></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
