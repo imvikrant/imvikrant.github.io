@@ -2,11 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./assets/img/favicon.png"
-    />
     <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
@@ -16,7 +11,6 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
       name="viewport"
     />
-    <!--     Fonts and icons     -->
     <link
       rel="stylesheet"
       type="text/css"
@@ -26,23 +20,14 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
     />
-    <!-- CSS Files -->
+
     <link href="./assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="./assets/demo/demo.css" rel="stylesheet" />
+    <link href="./assets/styles/style.css" rel="stylesheet" />
   </head>
 
   <body class="profile-page sidebar-collapse">
-    <nav
-      class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg"
-      color-on-scroll="100"
-      id="sectionsNav"
-    >
-      <div class="container"></div>
-    </nav>
     <div
       class="page-header"
-      data-parallax="true"
       style="background-image: url('./assets/img/portfolio_background.jpg');"
     ></div>
     <div class="main main-raised">
@@ -62,13 +47,15 @@
                   <h3 class="title">Vikrant Pradhan</h3>
                   <h6>Full Stack Web Developer</h6>
                   <a
-                    href="#pablo"
-                    class="btn btn-just-icon btn-link btn-dribbble"
+                    href="https://www.linkedin.com/in/imvikrant17/"
+                    class="btn btn-just-icon btn-link"
+                    target="_blank"
                     ><i class="fa fa-linkedin"></i
                   ></a>
                   <a
-                    href="#pablo"
-                    class="btn btn-just-icon btn-link btn-twitter"
+                    href="https://github.com/imvikrant"
+                    target="_blank"
+                    class="btn btn-just-icon btn-link"
                     ><i class="fa fa-github"></i
                   ></a>
                 </div>
@@ -78,8 +65,8 @@
           <div class="description text-center">
             <p>
               A Full Stack Developer passionate about software development and
-              creating fully fledged web applications. Visit my LinkedIn profile
-              for contact information.
+              creating fully fledged web applications. Worked on projects with technologies 
+              like ReactJS, GraphQl, Express, NodeJS, MongoDB, Typescript. Visit the linkedIn page for contact infomation.
             </p>
           </div>
           <div class="row">
@@ -92,7 +79,7 @@
                   <li class="nav-item">
                     <a
                       class="nav-link active"
-                      href="#studio"
+                      href="#projects"
                       role="tab"
                       data-toggle="tab"
                     >
@@ -102,7 +89,7 @@
                   <li class="nav-item">
                     <a
                       class="nav-link"
-                      href="#works"
+                      href="#skills"
                       role="tab"
                       data-toggle="tab"
                     >
@@ -114,7 +101,7 @@
             </div>
           </div>
           <div class="tab-content tab-space">
-            <div class="tab-pane active text-center gallery" id="studio">
+            <div class="tab-pane active text-center gallery" id="projects">
               <div class="row">
                 <div class="col-md-3 ml-auto">
                   <div class="card mt-1 mb-5">
@@ -122,7 +109,7 @@
                       <h4 class="card-title">Javascript Chat App</h4>
                     </div>
                     <div class="card-body">
-                      <!-- <h4 class="card-title">Here is the Icon</h4> -->
+                    
                       <p>
                         A simple chat app that uses solely HTML, CSS &
                         Javascript to implement the client interface. To provide
@@ -164,7 +151,6 @@
                       <h4 class="card-title">React Chat App</h4>
                   </div>
                     <div class="card-body">
-                      <!-- <h4 class="card-title">Here is the Icon</h4> -->
                       <p>
                         This app uses React-Redux to develop the frontend client
                         interface. Its a basic app where a user can provide a
@@ -182,7 +168,6 @@
                       <h4 class="card-title">Penpal Social App</h4>
                     </div>
                     <div class="card-body">
-                      <!-- <h4 class="card-title">Here is the Icon</h4> -->
                       <p>
                         A simple app that allows users to search and add users and subcribe
                         their posts. It uses passportJS for authentication. This
@@ -199,7 +184,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane text-center gallery" id="works">
+            <div class="tab-pane text-center gallery" id="skills">
               <div class="row">
                 <div class="col-md-6 offset-md-3">
                   <h3 class="skills-subheader">FrontEnd</h3>
@@ -417,30 +402,27 @@
         <nav class="float-left">
           <ul>
             <li>
-              <a href="https://creative-tim.com/presentation">
+              <a href="https://linkedin.com/in/imvikrant17" target="_blank">
                 LinkedIn
               </a>
             </li>
             <li>
-              <a href="http://blog.creative-tim.com">
+              <a href="https://github.com/imvikrant" target="_blank">
                 GitHub
               </a>
             </li>
           </ul>
         </nav>
-        <div class="copyright float-right">
-          <!-- &copy; -->
-          <!-- <script>
-            document.write(new Date().getFullYear());</script
-          >, made with <i class="material-icons">favorite</i> by -->
-          <a href="https://www.creative-tim.com" target="_blank"
-            >Vikrant Pradhan</a
+        <div class="float-right">
+
+          <span
+            >Vikrant Pradhan</span
           >
-          <!-- for a better web. -->
+   
         </div>
       </div>
     </footer>
-    <!--   Core JS Files   -->
+
     <script
       src="./assets/js/core/jquery.min.js"
       type="text/javascript"
@@ -453,20 +435,6 @@
       src="./assets/js/core/bootstrap-material-design.min.js"
       type="text/javascript"
     ></script>
-    <script src="./assets/js/plugins/moment.min.js"></script>
-    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
-    <script
-      src="./assets/js/plugins/bootstrap-datetimepicker.js"
-      type="text/javascript"
-    ></script>
-    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-    <script
-      src="./assets/js/plugins/nouislider.min.js"
-      type="text/javascript"
-    ></script>
-    <!--  Google Maps Plugin    -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-    <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
     <script
       src="./assets/js/material-kit.js?v=2.0.5"
       type="text/javascript"
